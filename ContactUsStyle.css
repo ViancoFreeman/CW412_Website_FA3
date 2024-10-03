@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1F1F1F;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #BB86FC;
+    color: #121212;
+    border-radius: 4px;
+}
+
+.logo a {
+    color: #BB86FC;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contact Us Container */
+.contact-us-container {
+    padding-top: 80px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Institution Details Section */
+.institution-details h1 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+}
+
+.institution-details p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    margin-top: 40px;
+}
+
+.contact-form-section h2 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #BB86FC;
+    border-radius: 5px;
+    background-color: #1F1F1F;
+    color: #E0E0E0;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #BB86FC;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #E0E0E0;
+    color: #121212;
+}
+
+/* Map Section */
+.map-section {
+    margin-top: 40px;
+}
+
+.map-section h2 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+}
+
+/* Staff Section */
+.staff-section {
+    margin-top: 40px;
+}
+
+.staff-section h2 {
+    color: #BB86FC;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.staff-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.staff-member img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.staff-details h3 {
+    color: #BB86FC;
+    margin-bottom: 5px;
+}
+
+.staff-details p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.college-image {
+    max-width: 35%; /* The image will take up to 35% of the width */
+}
+
+.college-image img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 800px; /* Add margin to the left of the image */
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

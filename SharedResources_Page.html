@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Resources</title>
+    <link rel="stylesheet" href="SharedResourcesStyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home_Page.html">Home</a></li>
+            <li><a href="TimeTable_Page.html">TimeTable</a></li>
+            <li><a href="Discussion_Page.html">Discussion</a></li>
+            <li><a href="AboutUs_Page.html">About Us</a></li>
+            <li><a href="ContactUs_Page.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Share Educational Resources</h1>
+    </header>
+
+    <main>
+        <section class="upload-section">
+            <h2>Upload New Resource</h2>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="resourceTitle">Title:</label>
+                <input type="text" id="resourceTitle" name="title" required>
+                <label for="resourceCategory">Category:</label>
+                <select id="resourceCategory" name="category">
+                    <option value=""></option>
+                    <option value="CW412">CW412</option>
+                    <option value="ENA412">ENA412</option>
+                    <option value="RD412">RD412</option>
+                    <option value="CF412">CF412</option>
+                    <option value="HW">HomeWork</option>
+                    <option value="CA">Class Activity</option>
+                </select>
+                <label for="resourceFile">Upload PDF:</label>
+                <input type="file" id="resourceFile" name="file" accept=".pdf" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section class="search-section">
+            <h2>Search Resources</h2>
+            <input type="text" id="searchInput" placeholder="Search for resources...">
+            <button id="searchButton">Search</button>
+        </section>
+        <section class="resources-list">
+            <h2>Available Resources</h2>
+            <div id="resourcesContainer">
+                <!-- Resources will be dynamically loaded here -->
+            </div>
+        </section>
+        <section class="images">
+            <h2>Resource Examples</h2>
+            <img src="SH1.png" alt="Example Resource 1">
+            <img src="SH2.png" alt="Example Resource 2">
+        </section>
+    </main>
+    <script src="SharedResources.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Student Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

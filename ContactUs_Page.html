@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CTU-Buddy</title>
+    <link rel="stylesheet" href="ContactUsStyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">CTU-Buddy</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home_Page.html">Home</a></li>
+                <li><a href="TimeTable_Page.html">TimeTable</a></li>
+                <li><a href="Discussion_Page.html">Discussion</a></li>
+                <li><a href="SharedResources_Page.html">Shared Resourecs</a></li>
+                <li><a href="AboutUs_Page.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contact-us-container">
+        <!-- Institution Details -->
+        <section class="institution-details">
+            <h1>Contact Us</h1>
+            <p>
+                CTU-Buddy<br>
+                26 Worraker St, CTU Campus<br>
+                Port Elizabeth, Eastern Cape, 6001<br>
+                Phone: 041 363 2911<br>
+                Email: contact@ctubuddy.combr <br>  
+                Vianco Freeman<br>
+                20240917
+            </p>
+            <div class="college-image">
+                <img src="CTU.jpg" alt="CTU College">
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form" action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-section">
+            <h2>Our Location</h2>
+            <div id="map">
+                <iframe
+                 Img src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.8467312950856!2d25.567525075511735!3d-33.94506997319755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e7ad3d69c55a1e7%3A0x9dc893d644fa6cd0!2sCTU%20Training%20Solutions%20Gqeberha%20(Port%20Elizabeth)!5e0!3m2!1sen!2sza!4v1724328950331!5m2!1sen!2sza" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Staff Section -->
+        <section class="staff-section">
+            <h2>Our Staff</h2>
+            <div class="staff-member">
+                <img src="L1.webp" alt="Staff Member 1">
+                <div class="staff-details">
+                    <h3>John Doe</h3>
+                    <p>John is the head of our Software development at CTU, with over 10 years of experience in software engineering.</p>
+                </div>
+            </div>
+            <div class="staff-member">
+                <img src="L2.webp" alt="Staff Member 2">
+                <div class="staff-details">
+                    <h3>Jane Smith</h3>
+                    <p>Jane is our Chief director here at CTU.</p>
+                </div>
+            </div>
+            <div class="staff-member">
+                <img src="L3.jpg" alt="Staff Member 3">
+                <div class="staff-details">
+                    <h3>Mike Johnson</h3>
+                    <p>Mike manages our customer support team.</p>
+                </div>
+            </div>
+            <div class="staff-member">
+                <img src="L4.webp" alt="Staff Member 4">
+                <div class="staff-details">
+                    <h3>Emily Brown</h3>
+                    <p>Deven is responsible for our marketing efforts.</p>
+                </div>
+            </div>
+            <div class="staff-member">
+                <img src="L5.jpg" alt="Staff Member 5">
+                <div class="staff-details">
+                    <h3>David Wilson</h3>
+                    <p>David oversees our IT infrastructure, ensuring that everything is always up and running.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Student Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

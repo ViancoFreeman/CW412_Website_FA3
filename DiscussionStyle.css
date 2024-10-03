@@ -1,0 +1,149 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #f0f0f0; /* Light text color */
+}
+
+
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #BB86FC;
+    color: #121212;
+    border-radius: 4px;
+    
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: purple;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Content Styles */
+.main-content {
+    padding: 20px;
+}
+
+.post-question {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.post-question h2 {
+    margin-top: 0;
+    color: purple;
+}
+
+.post-question textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #444;
+    border: none;
+    color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-question button {
+    background-color: #d51f26;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.post-question button:hover {
+    background-color: #bb1a1f;
+}
+
+.discussion-thread {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.discussion-thread h2 {
+    margin-top: 0;
+    color: purple;
+}
+
+.thread {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.thread .user-profile {
+    font-weight: bold;
+}
+
+.thread .reply-button {
+    background-color: #d51f26;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.thread .reply-button:hover {
+    background-color: #bb1a1f;
+}
+
+.thread .replies {
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 97%;
+    margin-top: 130px ;
+   
+}
